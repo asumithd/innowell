@@ -1,1 +1,121 @@
-/* You can add global styles to this file, and also import other style files */
+.icon-header a {
+    padding: 0 1rem;
+}
+.linkDiv li {
+    list-style: none;
+
+}
+
+.linkDiv ul {
+    padding: 0;
+}
+.fColor{
+    color: #f3901d;
+}
+.bColor{
+    border-color: #f3901d !important;
+}
+.bWidth{
+    border-width: 3px !important;
+}
+
+.appDetails{
+    width: 60%;
+}
+.appMapDetails{
+    width: 50%;
+}
+.carousel-control-next {
+    right: -120px;
+}
+.carousel-control-prev {
+    left: -120px;
+}
+ 
+.appImg {
+    background: url('../../../../sample/wetransfer_images_2021-11-04_0547/appolo.png');
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.appVid {
+    background: url('../src/assets/img/vid.png');
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.appMap {
+    background: url('../src/assets/img/map.png');
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .carousel-cells .carousel-cell img,  .carousel-cells .carousel-cell video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: contain !important;
+}
+ .carousel-arrow {
+    width: 40 px;
+    height: 40 px;
+     background-color: transparent !important; 
+    background-repeat: no-repeat;
+    background-size: 31 px;
+    background-position: 50%;
+   border-radius: 0px !important; 
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 10;
+    cursor: pointer;
+    box-shadow:none !important;
+}
+ .carousel-arrow-next{
+    right: -50px !important;
+}
+.carousel-arrow-prev{
+    left: -50px !important;
+}
+.nav-item{
+    width: 180px;
+}
+.nav-pills .nav-link.active:after{
+width: 100%;
+height: 100%;
+}
+.header{
+    height: 500px;
+    background: url('../src/assets/img/headerbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: transparent !important;
+}
+a{
+    color: #000 !important;
+}
+.addressDetails li:first-child{
+    color: blue;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 3px 0;
+}
+.iconL{
+    display: block;margin-bottom: 20px;font-size: 18px;
+}
+.iconL::before{
+    border: 2px solid;
+    border-radius: 100px;
+    padding: 10px;
+}
