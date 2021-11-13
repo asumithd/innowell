@@ -1,0 +1,71 @@
+<div class="container-fuild">
+    <div class="header">
+        <app-header></app-header>
+        <div class="d-flex justify-content-center align-items-center fdCol" style="height: 450px;">
+            <div class="playBox">
+                <div class="">
+                    <i class="far fa-play-circle text-white fSize30" aria-hidden="true" style="margin-top: 8px;"></i>
+                </div>
+                <div class="" style="padding: 0 10px;">
+                    <h4 style="font-size: 1.9rem;" class="text-white">About <span class="fColor">Innowell</span></h4>
+                    <p class="text-white" style="font-size: 12px;">Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Quia ducimus distinctio blanditiis
+                        rerum iste ratione hic rem aliquam animi nemo?</p>
+                </div>
+            </div>
+        </div>
+        <div class="dFle jusContentC">
+            <div class="txtAlignC" style="
+            width: 50%;
+            padding: 40px;
+        ">
+                <p style="color: #4f4d4d;font-size: 16px;padding: 0 120px;line-height: 1;"> We a team of passionate
+                    professionals design building and industrial services on sustainable framework empowered by advanced
+                    techology & analytics.
+                    <br> <br>
+                    Innovations form inceptions to implementation customers like us because of our Passion
+                    Innovativeness and Business ethics.
+                </p>
+            </div>
+        </div>
+        <div class="">
+            <div class="fdCol dFle jusContentC txtAlignC" style="
+            height: 250px;
+            background: #e4e4e4;
+        ">
+                <h4 class="fColor text-uppercase">Our Vision</h4>
+                <p style="color: #4f4d4d;font-size: 41px;font-weight: 500;padding: 0 120px;">Innowell aspires to be a
+                    global leader for innovative solutions to its customers through passionate professionals</p>
+            </div>
+            <div class="fdCol dFle txtAlignC"
+                style="background: url('../../../assets/img/missionbg.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;height: 500px;">
+                <h4 class="fColor text-uppercase">our mission</h4>
+                <div class="dFle" style="justify-content: space-evenly;margin: 130px 0;padding: 50px 0;">
+
+                    <div style="width: 18%;" *ngFor="let mission of missions;">
+                        <i class="{{mission.icon}} text-white fSize50" aria-hidden="true"></i>
+                        <h3 class="fColor">{{mission.name}}</h3>
+                        <p class="text-white">{{mission.type}}</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="fdCol dFle jusContentC txtAlignC">
+                <h4 class="fColor">Our Values</h4>
+                <div class="dFle " style="flex-wrap: wrap;margin-top: 20px;">
+                    <div class="warpbox" *ngFor="let ourValue of ourValues;">
+                        <i class="{{ourValue.icon}} fSize50" aria-hidden="true" style="color: #3182c1;"></i>
+                        <h2 style="color:#4d4d4d">{{ourValue.name}}</h2>
+                        <p style="color: #4f4d4d;">{{ourValue.description}}</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <app-footer></app-footer>
+        </div>
+    </div>
