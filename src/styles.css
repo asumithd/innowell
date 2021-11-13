@@ -3,119 +3,215 @@
 }
 .linkDiv li {
     list-style: none;
-
 }
 
 .linkDiv ul {
     padding: 0;
 }
-.fColor{
+.fColor {
     color: #f3901d;
 }
-.bColor{
+.bColor {
     border-color: #f3901d !important;
 }
-.bWidth{
+.bWidth {
     border-width: 3px !important;
 }
 
-.appDetails{
+.appDetails {
     width: 60%;
 }
-.appMapDetails{
-    width: 50%;
-}
+
 .carousel-control-next {
     right: -120px;
 }
 .carousel-control-prev {
     left: -120px;
 }
- 
+
 .appImg {
-    background: url('../../../../sample/wetransfer_images_2021-11-04_0547/appolo.png');
+    background: url("../../../../sample/wetransfer_images_2021-11-04_0547/appolo.png");
     width: 40%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .appVid {
-    background: url('../src/assets/img/vid.png');
+    background: url("../src/assets/img/vid.png");
     width: 40%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .appMap {
-    background: url('../src/assets/img/map.png');
-    width: 50%;
+    background: url("../src/assets/img/map.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
- .carousel-cells .carousel-cell img,  .carousel-cells .carousel-cell video {
+.carousel-cells .carousel-cell img,
+.carousel-cells .carousel-cell video {
     width: 100%;
     height: 100%;
     position: relative;
     object-fit: contain !important;
 }
- .carousel-arrow {
+.carousel-arrow {
     width: 40 px;
     height: 40 px;
-     background-color: transparent !important; 
+    background-color: transparent !important;
     background-repeat: no-repeat;
     background-size: 31 px;
     background-position: 50%;
-   border-radius: 0px !important; 
+    border-radius: 0px !important;
     position: absolute;
     top: 50%;
     margin-top: -20px;
     z-index: 10;
     cursor: pointer;
-    box-shadow:none !important;
+    box-shadow: none !important;
 }
- .carousel-arrow-next{
+.carousel-arrow-next {
     right: -50px !important;
 }
-.carousel-arrow-prev{
+.carousel-arrow-prev {
     left: -50px !important;
 }
-.nav-item{
+.nav-item {
     width: 180px;
 }
-.nav-pills .nav-link.active:after{
-width: 100%;
-height: 100%;
+.nav-pills .nav-link.active:after {
+    width: 100%;
+    height: 100%;
 }
-.header{
+.header {
     height: 500px;
-    background: url('../src/assets/img/headerbg.jpg');
+    background: url("../src/assets/img/headerbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.leadershipBg {
+    background: url("../src/assets/img/leaderbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
     color: #000;
     background-color: transparent !important;
 }
-a{
+a {
     color: #000 !important;
 }
-.addressDetails li:first-child{
+.addressDetails li:first-child {
     color: blue;
 }
-.logo{
+.logo {
     width: 30px;
     height: 30px;
     text-align: center;
     padding: 3px 0;
 }
-.iconL{
-    display: block;margin-bottom: 20px;font-size: 18px;
+.iconL {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
-.iconL::before{
+.iconL::before {
     border: 2px solid;
     border-radius: 100px;
     padding: 10px;
+}
+
+.warpbox {
+    width: 30%;
+    padding: 0 20px;
+    text-align: left;
+}
+.fSize30 {
+    font-size: 30px;
+}
+.fSize50 {
+    font-size: 50px;
+}
+.h450 {
+    height: 450px;
+}
+.mt8 {
+    margin-top: 8px;
+}
+.plr10 {
+    padding: 0 10px;
+}
+.fsone9r {
+    font-size: 1.9rem;
+}
+.fs23 {
+    font-size: 23px;
+}
+.mtb20 {
+    margin: 20px 0;
+}
+.pat5 {
+    padding-top: 5px;
+}
+.w-15 {
+    width: 15%;
+}
+.mal20 {
+    margin-left: 20px;
+}
+.hideSec {
+    background: #c1c1c1;
+    height: 500px;
+    z-index: 1;
+}
+.showSec {
+    right: 30px;
+    cursor: pointer;
+    top: 30px;
+    font-size: 18px;
+}
+.m72 {
+    margin: 70px 20px;
+}
+.showImg {
+    width: 390px;
+    height: 390px;
+    object-fit: cover;
+}
+.pat60 {
+    padding-top: 60px;
+}
+.pat40 {
+    padding: 40px;
+}
+.teamPara {
+    color: #4f4d4d;
+    font-size: 16px;
+    padding: 0 120px;
+    line-height: 1;
+}
+.visionBg {
+    height: 330px;
+    background: #e4e4e4;
+}
+.visionPara {
+    font-size: 41px;
+    font-weight: 500;
+    padding: 0 120px;
+}
+.missionBg {
+    background: url('../../application/src/assets/img/missionbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.pColor{
+    color: #4d4d4d;
 }

@@ -1,1 +1,89 @@
-<p>people works!</p>
+<div class="container-fuild">
+    <div class="leadershipBg">
+        <app-header></app-header>
+        <div class="d-flex justify-content-center container flex-column h450">
+            <div class="d-flex justify-content-around">
+
+                <div class="rlr10">
+                    <h4 class="text-white fsone9r">Innowell <span class="fColor"> Leadership</span>
+                    </h4>
+                    <p class="text-white fs23">innowell aspires be a global leader for innovative
+                        solutions to its customers through passionate professionals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center mtb20">
+                <label class="hColor pat5">View :</label>
+
+                <select class="rlr10 w-15 border-0" style="background: #e4e4e4;">
+                    <option>Global</option>
+                    <option>Local</option>
+                </select>
+            </div>
+            <div class="d-flex flex-wrap position-relative">
+                <div class="container d-flex position-absolute hideSec" id='divToScroll' *ngIf="hideDiv">
+                    <i class="fas fa-arrow-left fColor position-absolute showSec" (click)="hideSection()"></i>
+                    <div class="m72">
+                        <img src="../../../assets/img/leaderbg.jpg" alt="" class="showImg"
+                            style="">
+                    </div>
+
+                    <div style="
+                    
+                ">
+                        <h2 class="hColor">{{slectedPeople.name}}</h2>
+                        <h3 class="hColor hbColor position-relative" style="
+                        font-size: 20px;
+                        font-weight: 300;
+                    ">{{slectedPeople.designation}}</h3>
+                        <p *ngFor="let description of slectedPeople.description" class="lineText">
+                            {{description}}
+                        </p>
+                        <i class="fab fa-linkedin-in fColor" style="
+                        border-radius: 50px;
+                        border: 1px solid;
+                        padding: 8px;
+                        margin-top: 30px;
+                    "></i>
+                    </div>
+                </div>
+                <div class="peopleBox" *ngFor="let people of peoples;let i = index;">
+                    <div
+                        style="height: 300px;background-size: cover;background-position: center;background-repeat: no-repeat;background: url('../../../assets/img/{{people.img}}');">
+                    </div>
+                    <h2 class="hColor">{{people.name}}</h2>
+                    <h3 class="splUnder position-relative">{{people.designation}}</h3>
+
+                    <a (click)='readMore(i)' style="
+                    cursor: pointer;
+                ">Read More <i class="far fa-arrow-alt-circle-right hColor"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style=" background: #c1c1c1;
+">
+        <div class="container d-flex flex-column">
+            <h4>Board of directors</h4>
+            <div class="d-flex justify-content-between">
+                <div class="contactbox" *ngFor="let contact of contacts">
+                    <h6 class="hColor">{{contact.company}}</h6>
+                    <h4 style="color: #444;">{{contact.name}}</h4>
+                    <p>{{contact.tinno}}</p>
+                    <br>
+                    <div *ngFor="let member of contact.members">
+                        <p>{{member}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <app-footer></app-footer>
+    </div>
+</div>
