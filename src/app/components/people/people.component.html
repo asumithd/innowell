@@ -23,7 +23,7 @@
                     <option>Local</option>
                 </select>
             </div>
-            <div class="d-flex flex-wrap position-relative">
+            <div class="d-flex flex-wrap position-relative peopleSection">
                 <div class="container d-flex position-absolute hideSec" id='divToScroll' *ngIf="hideDiv">
                     <i class="fas fa-arrow-left fColor position-absolute showSec" (click)="hideSection()"></i>
                     <div class="m72">
@@ -54,7 +54,7 @@
                     <div
                         style="height: 300px;background-size: cover;background-position: center;background-repeat: no-repeat;background: url('../../../assets/img/{{people.img}}');">
                     </div>
-                    <h2 class="hColor">{{people.name}}</h2>
+                    <h2 class="hColor peopleText">{{people.name}}</h2>
                     <h3 class="splUnder position-relative">{{people.designation}}</h3>
 
                     <a (click)='readMore(i)' style="
@@ -68,7 +68,7 @@
 ">
         <div class="container d-flex flex-column">
             <h4>Board of directors</h4>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between directionSec">
                 <div class="contactbox" *ngFor="let contact of contacts">
                     <h6 class="hColor">{{contact.company}}</h6>
                     <h4 style="color: #444;">{{contact.name}}</h4>

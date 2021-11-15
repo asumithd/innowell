@@ -275,90 +275,236 @@ a {
     padding: 5px;
     border-radius: 5px;
 }
-/* .paraSection {
-    width: 100% !important;
-    height: 280px;
-} */
+
 @media (min-width: 576px) {
-    .container-fuild {
-        background: saddlebrown;
+    
+    .FashionSec{
+        height: 800px !important;
+    }
+    carousel.threeCarousel.carousel {
+        width: 68vh !important;
+    }
+    .missionBg .missbox,
+    .linkDiv {
+        width: 100%;
+        text-align: center;
+    }
+
+    .valuesSection,
+    .footerSection,
+    .footerBox,
+    .linkSection,
+    .peopleSection,
+    .directionSec,
+    .hideSec {
+        flex-direction: column;
+    }
+    .hideSec {
+        align-items: center;
+        height: 970px;
+    }
+    .showImg {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .m72 {
+        margin: 10px 20px;
+    }
+    .warpbox,
+    .footerBox,
+    .peopleBox {
+        width: 100% !important;
+    }
+
+    .logoSection {
+        width: 100% !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 20px 0;
+    }
+    .visionPara {
+        font-size: 30px;
+    }
+    .heroBox {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        display: flex !important;
+    }
+    .appImg,
+    .appMap {
+        width: 100% !important;
+        min-height: 350px;
+    }
+    .appDetails,
+    .mapDetails {
+        width: 100% !important;
+    }
+    .threeCarousel {
+        width: 479px;
     }
 }
 
 @media (min-width: 768px) {
-    .container-fuild {
-        background: salmon;
+    
+    .FashionSec{
+        height: 620px !important;
+    }
+    carousel.threeCarousel.carousel {
+        width: 89vh !important;
+    }
+    .footerSection,
+    .linkSection {
+        flex-direction: row;
+    }
+    .footerBox {
+        width: 80% !important;
+    }
+    .logoSection {
+        width: 25% !important;
+        align-items: flex-start;
+    }
+    .visionPara {
+        font-size: 30px;
+    }
+    .heroBox {
+        flex-direction: row;
+    }
+    .directionSec {
+        flex-direction: row;
+    }
+    .appImg,
+    .appMap {
+        width: 50% !important;
+        min-height: 350px;
+    }
+    .appDetails,
+    .mapDetails,
+    .appVid {
+        width: 50% !important;
     }
 }
 
 @media (min-width: 992px) {
-    .container-fuild {
-        background: sandybrown;
+    
+    .peopleSection {
+        flex-direction: row;
+    }
+    .peopleBox {
+        width: 33.33% !important;
+    }
+    .peopleText {
+        font-size: 28px;
+    }
+    .hideSec {
+        height: 520px;
+    }
+    .showImg {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
     }
 }
 
 @media (min-width: 1200px) {
-    .container-fuild {
-        background: seagreen;
+    
+    .hideSec {
+        height: 465px;
+    }
+    .hideSec {
+        flex-direction: row;
+    }
+    .m72 {
+        margin: 70px 20px;
+        width: 100%;
+    }
+    .showImg {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
     }
 }
 
-@media (min-width: 1400px) {
-    .container-fuild {
-        background: seashell;
-    }
-}
+
 @media (max-width: 575.98px) {
-   
+    
+    .FashionSec{
+        height: 830px !important;
+    }
+    carousel.threeCarousel.carousel {
+        width: 62vh !important;
+    }
     .missionBg .misssection {
         flex-direction: column;
         align-items: center;
         margin: 0px 0 !important;
         padding: 12px 0 !important;
     }
-    .missionBg .missbox ,.linkDiv{
+    .missionBg .missbox,
+    .linkDiv {
         width: 100%;
         text-align: center;
     }
-    .valuesSection,.footerSection,.footerBox,.linkSection{
+    .valuesSection,
+    .footerSection,
+    .footerBox,
+    .linkSection,
+    .peopleSection,
+    .directionSec,
+    .hideSec {
         flex-direction: column;
     }
-    .warpbox,.footerBox{
+    .showImg {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .m72 {
+        margin: 10px 20px;
+    }
+    .warpbox,
+    .footerBox,
+    .peopleBox {
         width: 100% !important;
     }
-    .logoSection{
-            width: 100% !important;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            margin: 20px 0;
+    .logoSection {
+        width: 100% !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 20px 0;
     }
-   
-   
+    .visionPara {
+        font-size: 30px;
+    }
+    .heroBox {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        display: flex !important;
+    }
+    .appImg,
+    .appMap {
+        width: 100% !important;
+        min-height: 350px;
+    }
+    .appDetails,
+    .mapDetails {
+        width: 100% !important;
+    }
+    .hideSec {
+        align-items: center;
+        height: 970px;
+    }
 }
 .missbox {
     width: 18%;
 }
-/*@media (max-width: 767.98px) {
-    .container-fuild {
-        background: silver;
-    }
-}
 
-@media (max-width: 991.98px) {
-    .container-fuild {
-        background: skyblue;
-    }
+.container.cusSection {
+    height: 200px;
+    padding: 30px 0;
 }
-
-@media (max-width: 1199.98px) {
-    .container-fuild {
-        background: slateblue;
-    }
+.width550 {
+    width: 550px;
 }
-
-@media (max-width: 1399.98px) {
-    .container-fuild {
-        background: snow;
-    }
-} */
