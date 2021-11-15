@@ -11,6 +11,9 @@
 .fColor {
     color: #f3901d;
 }
+.bgColor {
+    background: #f3901d;
+}
 .bColor {
     border-color: #f3901d !important;
 }
@@ -55,7 +58,6 @@
     width: 100%;
     height: 100%;
     position: relative;
-    object-fit: contain !important;
 }
 .carousel-arrow {
     width: 40 px;
@@ -197,21 +199,166 @@ a {
     line-height: 1;
 }
 .visionBg {
-    height: 330px;
+    /* height: 330px; */
     background: #e4e4e4;
 }
+.missionBg .missText {
+    text-align: center;
+}
+
 .visionPara {
     font-size: 41px;
     font-weight: 500;
     padding: 0 120px;
 }
 .missionBg {
-    background: url('../../application/src/assets/img/missionbg.jpg');
+    background: url("../../application/src/assets/img/missionbg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
-.pColor{
+.pColor {
     color: #4d4d4d;
 }
+.hColor {
+    color: #3182c1;
+}
+
+.peopleBox {
+    width: 33.33%;
+    padding: 30px 20px;
+    height: 500px;
+    box-sizing: border-box;
+}
+.splUnder,
+.hbColor {
+    margin-bottom: 2rem;
+}
+.splUnder::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    border-bottom: 1px solid #f3901d;
+    left: 0;
+    bottom: -6px;
+}
+.hbColor::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    left: 0;
+    bottom: -6px;
+    border-bottom: 1px solid #3182c1;
+}
+.lineText {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.downloadBtn {
+    margin-left: 60px;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.anchorLink:hover {
+    text-decoration: none;
+}
+.anchorLink:active,
+.active {
+    background: #f3901d;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* .paraSection {
+    width: 100% !important;
+    height: 280px;
+} */
+@media (min-width: 576px) {
+    .container-fuild {
+        background: saddlebrown;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-fuild {
+        background: salmon;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fuild {
+        background: sandybrown;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fuild {
+        background: seagreen;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-fuild {
+        background: seashell;
+    }
+}
+@media (max-width: 575.98px) {
+   
+    .missionBg .misssection {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0 !important;
+        padding: 12px 0 !important;
+    }
+    .missionBg .missbox ,.linkDiv{
+        width: 100%;
+        text-align: center;
+    }
+    .valuesSection,.footerSection,.footerBox,.linkSection{
+        flex-direction: column;
+    }
+    .warpbox,.footerBox{
+        width: 100% !important;
+    }
+    .logoSection{
+            width: 100% !important;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 20px 0;
+    }
+   
+   
+}
+.missbox {
+    width: 18%;
+}
+/*@media (max-width: 767.98px) {
+    .container-fuild {
+        background: silver;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container-fuild {
+        background: skyblue;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .container-fuild {
+        background: slateblue;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .container-fuild {
+        background: snow;
+    }
+} */
