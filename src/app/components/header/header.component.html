@@ -1,8 +1,64 @@
-<div class="container-fulid headerBox d-flex" style="height: 50px;">
+<nav class="navbar navbar-expand-lg navbar-light ">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav " style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    ">
+            <li class="nav-item">
+                <div class="icon-header border-right border-bottom align-items-center d-flex justify-content-between px-5" style="
+    padding: 10px 0;
+">
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-white"><i
+                class="fab fa-facebook-f"></i></a>
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-white"><i
+                class="fab fa-twitter"></i></a>
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-white"><i
+                class="fab fa-linkedin-in"></i></a>
+    </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white anchorLink text-center" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}" routerLink="/about">ABOUT INNOWELL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white anchorLink text-center" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}" routerLink="/people">WHAT WE DO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white anchorLink text-center" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}" routerLink="/home"><i class="fa fa-map-marker"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white anchorLink text-center" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}" routerLink="/project">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white anchorLink text-center" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}" routerLink="">CAREERS</a>
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link text-uppercase text-white anchorLink text-center" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}" routerLink="">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- <div class="container-fulid headerBox d-flex" style="height: 50px;">
     <div class="icon-header border-right border-bottom align-items-center d-flex justify-content-between px-5">
-        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-white"><i class="fab fa-facebook-f"></i></a>
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-white"><i class="fab fa-twitter"></i></a>
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-white"><i class="fab fa-linkedin-in"></i></a>
     </div>
     <div class="details-header flex-grow-1 border-bottom align-items-center d-flex justify-content-between px-5">
         <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-uppercase text-white anchorLink">ABOUT INNOWELL</a>
@@ -12,7 +68,6 @@
         <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="" class="text-uppercase text-white anchorLink">CAREERS</a>
     </div>
     <div class="contact-header border-left border-bottom align-items-center d-flex justify-content-between px-5">
-        <a href="#" class="text-uppercase text-white">CONTACT</a>
-      
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about" class="text-uppercase text-white">CONTACT</a>
     </div>
-</div>
+</div> -->
