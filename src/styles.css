@@ -298,7 +298,7 @@ a {
         height: 800px !important;
     }
     carousel.threeCarousel.carousel {
-        width: 68vh !important;
+        width: 68vh;
     }
     .missionBg .missbox,
     .linkDiv {
@@ -366,7 +366,7 @@ a {
         height: 620px !important;
     }
     carousel.threeCarousel.carousel {
-        width: 89vh !important;
+        width: 89vh;
     }
     .footerSection,
     .linkSection {
@@ -466,7 +466,7 @@ a {
         height: 830px !important;
     }
     carousel.threeCarousel.carousel {
-        width: 62vh !important;
+        width: 62vh ;
     }
     .missionBg .misssection {
         flex-direction: column;
@@ -564,3 +564,6 @@ li.nav-item.logo {
 li.nav-item:last-child {
     border-right: none !important;
 }
+/* .anchorLink:active, .active{
+    min-height: 320px;
+} */
