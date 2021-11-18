@@ -33,7 +33,7 @@
 }
 
 .appImg {
-    background: url("../../../../sample/wetransfer_images_2021-11-04_0547/appolo.png");
+    background: url("../../application/src/assets/img/bg1.jpg");
     width: 40%;
     background-position: center;
     background-size: cover;
