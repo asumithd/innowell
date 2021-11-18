@@ -33,7 +33,7 @@
 }
 
 .appImg {
-    background: url("../../application/src/assets/img/bg1.jpg");
+    background: url("./assets/img/bg1.jpg");
     width: 40%;
     background-position: center;
     background-size: cover;
