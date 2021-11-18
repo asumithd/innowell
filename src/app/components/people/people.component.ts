@@ -39,5 +39,13 @@ export class PeopleComponent implements OnInit {
   hideSection() {
     this.hideDiv = false;
   }
+  Lchange(e: any) {
+    if (e.target.value === 'Global') {
+      this.peoples.sort((a, b) => 0 - (a > b ? -1 : 1));
+    } else {
+      this.peoples.sort((a, b) => 0 - (a > b ? 1 : -1));
+    }
 
+
+  }
 }

@@ -18,7 +18,7 @@
             <div class="d-flex justify-content-center align-items-center mtb20">
                 <label class="hColor pat5">View :</label>
 
-                <select class="rlr10 w-15 border-0" style="background: #e4e4e4;">
+                <select class="rlr10 w-15 border-0" (click)="Lchange($event)" style="background: #e4e4e4;">
                     <option>Global</option>
                     <option>Local</option>
                 </select>
@@ -27,8 +27,7 @@
                 <div class="container d-flex position-absolute hideSec" id='divToScroll' *ngIf="hideDiv">
                     <i class="fas fa-arrow-left fColor position-absolute showSec" (click)="hideSection()"></i>
                     <div class="m72">
-                        <img src="../../../assets/img/leaderbg.jpg" alt="" class="showImg"
-                            style="">
+                        <img src="../../../assets/img/leaderbg.jpg" alt="" class="showImg" style="">
                     </div>
 
                     <div style="
