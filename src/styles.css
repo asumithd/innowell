@@ -292,7 +292,7 @@ a {
     }
     a.nav-link.text-uppercase.text-white.anchorLink {
         border: none !important;
-        padding: 10px 0px;
+        padding: 10px;
     }
     .FashionSec {
         height: 800px !important;
@@ -436,6 +436,13 @@ a {
         padding: 0 20px;
         border-right: 1px solid #fff !important;
         margin-left: -15px;
+    }
+    .logo{
+        height: 35px;
+    }
+    .logo .logoBox{
+        width: 25px;
+        height: 25px;
     }
     .hideSec {
         height: 465px;

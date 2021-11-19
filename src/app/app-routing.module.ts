@@ -6,8 +6,8 @@ import { PeopleComponent } from './components/people/people.component';
 import { ProjectComponent } from './components/project/project.component';
 
 const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path : 'home', component:HomeComponent },
-  { path : '', component:HomeComponent },
   { path : 'about', component:AboutComponent },
   { path : 'people', component:PeopleComponent },
   { path : 'project', component:ProjectComponent },
