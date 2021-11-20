@@ -11,8 +11,8 @@
         <h4 class="text-white">presented in simple forms</h4>
       </div>
     </div>
-    <div style="  background: #8d8d8d;">
-      <ul class="nav nav-pills mb-3 d-flex justify-content-around"  id="pills-tab" role="tablist">
+    <div style="  background: #8d8d8d;display: flex;justify-content: space-between;" class="TabCon">
+      <ul style="width:30%" class="nav nav-pills mb-3 d-flex justify-content-around"  id="pills-tab" role="tablist">
         <li class="nav-item text-center mt-4 border-right tabHeight">
           <a class="nav-link text-capitalize active" id="pills-mechanical-tab" data-toggle="pill" href="#pills-mechanical"
             role="tab" aria-controls="pills-mechanical" aria-selected="true"><i class="iconL fas fa-cogs"></i> mechanical
@@ -50,18 +50,21 @@
             optimisation Tools</a>
         </li>
       </ul>
-      <div class="tab-content bg-white" id="pills-tabContent">
+      <div style="width:70%" class="tab-content bg-white" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-mechanical" role="tabpanel"
           aria-labelledby="pills-mechanical-tab">...</div>
         <div class="tab-pane fade" id="pills-Green" role="tabpanel" aria-labelledby="pills-Green-tab">
-          <div style="max-width: 800px;margin: auto;">
+          <div style="/* max-width: 800px; */margin: auto;width: 100%;">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               </ol>
-              <div class="carousel-inner">
+              <div class="carousel-inner" style="
+              width: 80%;
+              margin: auto;
+          ">
                 <div class="carousel-item active">
                   <img class="d-block w-50" src="../assets/img/ibm.png" style="float: left;" alt="First slide">
                   <div class="w-50" style="float: left;display: block;padding-left: 30px;">
