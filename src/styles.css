@@ -524,6 +524,9 @@ a {
 }
 
 @media (min-width: 1200px) {
+    .cusSection carousel {
+        top: 10px !important;
+    }
     li.nav-item.logo {
         height: 40px !important;
         padding: 0px !important;
@@ -744,4 +747,8 @@ app-header {
     transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
     transition-timing-function: ease-out;
     transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+
+.tabBox .nav-item {
+    height: 160px;
 }
