@@ -538,7 +538,7 @@ a {
         top: 55px !important;
     }
     .nav-item {
-        width: 214px;
+        width: 205px;
         padding: 0 20px;
         border-right: 1px solid #fff !important;
         margin-left: -15px;
@@ -568,8 +568,15 @@ a {
 }
 
 @media (max-width: 575.98px) {
+    .navbar {
+        position: absolute;
+        width: 96.8vw;
+    }
     carousel.threeCarousel.carousel {
         top: 60px !important;
+    }
+    carousel.threeCarousel.carousel {
+        width: 82% !important;
     }
     .navbar {
         background: #fff;
